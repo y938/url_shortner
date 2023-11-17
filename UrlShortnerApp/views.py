@@ -5,7 +5,7 @@ from django.http import JsonResponse
 def url_shortner(request):
     if request.method == 'POST':
         long_url = request.POST.get('long_url')
-        bitly_shortener = pyshorteners.Shortener(api_key="9993696dd9a1d0ffc7524025ea821372c812a045")  # Replace with your Bitly API key
+        bitly_shortener = pyshorteners.Shortener(api_key="your bitly api")  # Replace with your Bitly API key
 
         try:
             short_url = bitly_shortener.bitly.short(long_url)

@@ -17,13 +17,13 @@ Before running the application, make sure you have the following installed:
 
 # Usage
 
-Install the required dependencies: pip install -r requirements.txt
-Run the Django development server: python manage.py runserver
-Visit http://127.0.0.1:8000/ in your web browser.
-Enter the long URL in the provided input field.
-Click the "Shorten URL" button.
-The application will use the Bitly API to generate a short URL.
-The short URL will be displayed on the page.
+1. Install the required dependencies: pip install -r requirements.txt
+2. Run the Django development server: python manage.py runserver
+3. Visit http://127.0.0.1:8000/ in your web browser.
+4. Enter the long URL in the provided input field.
+5. Click the "Shorten URL" button.
+6. The application will use the Bitly API to generate a short URL.
+7. The short URL will be displayed on the page.
 
 # Configuration
 
